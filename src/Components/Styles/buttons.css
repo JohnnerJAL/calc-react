@@ -1,0 +1,23 @@
+div.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+div.buttons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  width: 20%;
+  height: 20%;
+  background-color: teal;
+}
+div.buttons div:hover {
+  transform: scale(1.05);
+}
+div.buttons div a {
+  text-decoration: none;
+  color: unset;
+}

@@ -1,14 +1,14 @@
-import { React, Component } from 'react';
+import React from 'react';
 import "./Styles/screen.css";
 
-class Screen extends Component {
-  render() {
+function Screen() {
+
     return (
       <div className="screen" id="screen">
         
       </div>
     )
-  }
+
 }
 
 export default Screen;

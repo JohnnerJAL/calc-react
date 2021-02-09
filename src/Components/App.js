@@ -1,13 +1,13 @@
 import React from "react";
 import Screen from "./Screen";
-import Buttons from "./Buttons";
+import Calc from "./Calc";
 import "./Styles/App.css";
 
 function App() {
   return (
     <section className="container">
       <Screen/>
-      <Buttons/>
+      <Calc/>
     </section>
   )
 }
